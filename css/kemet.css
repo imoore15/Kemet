@@ -1,15 +1,16 @@
 body{
-	margin:0%;
+	/*margin:0%;*/
 }
 .nav {
 	background-image: url("../images/kk_header.jpg");
 	background-repeat: no-repeat;
 	padding-bottom: 15%;
-	padding-top:15%;
+	/*padding-top:15%;*/
+
 	
 	background-position: 50% 50%;
 	background-color:#01010a;
-	float: center;
+	
 }
 
 .nav > h1{
@@ -18,19 +19,23 @@ body{
 	text-align: center;
 	font-family: sans-serif;
 	letter-spacing: .5em;
-	
+	margin-top:-1em;
+	padding-top: 5em;
 	
 }
 
 .nav > p{
 	color:#f3eaee;
-	padding-top:10%;
-	float: center;
+	margin-top: 20em;
 	text-align:center;
 }
 
 .top-bar{
 	background-color:#01010a;
+	/*margin-top:-0.2em;*/
+	border-top: 1px solid #01010a;
+	margin: 0 auto;
+
 }
 
 .top-bar >ul{
@@ -39,13 +44,27 @@ body{
 
 
 	}
-
-.top-bar > ul > li{
-	color:#f18e2e;
+.top-bar  ul  li a,.top-bar  ul  li a:visited, .top-bar  ul  li a:active{
 	text-decoration: none;
+	color:#f3eaee;
+}
+
+.top-bar  ul  li a:hover{
+	background-color:#f18e2e;
+	color:#f3eaee;
+}
+
+.top-bar > ul >li:hover{
+	background-color:#f18e2e;
+	padding:.2em;
+}
+.top-bar > ul > li{
+	
+	width:10em;
 	display: inline-block;
 	border: solid 1px #01010a;
 	background-color:#ed4028;
+	border-radius:.5em;
 
 	
 }
@@ -60,4 +79,16 @@ body{
 .body-sell{
 	background-color: #f18e2e;
 	color:#f3eaee;
+	height: 15em;
 }
+
+.body-sell p {
+	float: left;
+	width: 70%;
+}
+
+.body-sell img{
+	float:right;
+}
+
+footer
